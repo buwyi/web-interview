@@ -75,7 +75,7 @@ setTimeout(obj.say, 0); // lucy，this 指向 window 对象
 
 - 修改 this 指向
 - 动态传递参数
-- 兼容 new 关键字 //暂未理解
+- 兼容 new 关键字 //暂理解
 
 ```javascript
 Function.prototype.myBind = function (context) {
