@@ -149,3 +149,11 @@ https://example.com/#/about
 
 如你在 GitHub Pages、Netlify、Vercel、静态文件服务器等环境中部署 React 应用时，如果不能配置路径重定向，就推荐使用 `HashRouter`。
 
+
+
+getparamters(url, params)
+
+url='www.baidu.com/cdn=213213&cdn=21221'
+params=cdn
+
+['213213','21212']
